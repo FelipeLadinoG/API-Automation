@@ -28,7 +28,7 @@ public class ClientSteps {
         logger.info(response.jsonPath().prettify());
         Assert.assertEquals(200, response.getStatusCode());
         List<Client> clientnList = clientRequest.getClientsEntity(response);
-        Assert.assertTrue(clientnList.size() >= 3);
+        Assert.assertTrue("There arent more than 3 clients registered",clientnList.size() >= 3);
     }
 
     @Given("I have a client with the following details:")
