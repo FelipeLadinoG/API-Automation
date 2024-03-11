@@ -2,7 +2,7 @@
 
 This project is an example of test automation for an API using RestAssured, Cucumber, and Java 11.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 - **RestAssured:** RestAssured is a Java library used for testing REST APIs. It provides a simple and fluent way to send HTTP requests and verify responses.
   
