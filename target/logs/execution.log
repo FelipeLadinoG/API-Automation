@@ -5353,3 +5353,2135 @@
 2024-03-11 12:45:28.618 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
 2024-03-11 12:45:28.618 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update resource details
 2024-03-11 12:45:28.618 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:17:22.963 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:17:22.965 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 13:17:22.966 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:17:23.217 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=Pepe, lastName=Perez, country=COL, city=Bog, email=Pepe@correo.com, phone=300-0000-0000, id=null)
+2024-03-11 13:17:26.052 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 13:17:26.053 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:17:26.053 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 13:17:26.053 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:17:26.059 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:17:26.060 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 13:17:26.060 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:17:26.436 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "Arne",
+        "lastName": "King",
+        "country": "Italy",
+        "city": "Inglewood",
+        "email": "Joan12@gmail.com",
+        "phone": "(632) 302-4405 x318",
+        "id": "3"
+    },
+    {
+        "name": "Abe",
+        "lastName": "Lebsack",
+        "country": "Brunei Darussalam",
+        "city": "Deltona",
+        "email": "Marisa_Rowe@gmail.com",
+        "phone": "(848) 669-2116 x7989",
+        "id": "4"
+    },
+    {
+        "name": "Rose",
+        "lastName": "Kohler",
+        "country": "Republic of Korea",
+        "city": "Santa Rosa",
+        "email": "Winnifred_Mayer56@yahoo.com",
+        "phone": "(384) 302-3069",
+        "id": "5"
+    },
+    {
+        "name": "Chet",
+        "lastName": "Boyer",
+        "country": "Zambia",
+        "city": "Town 'n' Country",
+        "email": "Jazmyn.OConnell32@gmail.com",
+        "phone": "330.973.9163 x294",
+        "id": "6"
+    },
+    {
+        "name": "Thelma",
+        "lastName": "Dach",
+        "country": "Bahrain",
+        "city": "Broken Arrow",
+        "email": "Florencio4@yahoo.com",
+        "phone": "(248) 953-5709 x08109",
+        "id": "7"
+    },
+    {
+        "name": "Clemens",
+        "lastName": "Hackett",
+        "country": "French Southern Territories",
+        "city": "Santa Maria",
+        "email": "Malcolm92@yahoo.com",
+        "phone": "615.290.6369 x903",
+        "id": "8"
+    },
+    {
+        "name": "Marty",
+        "lastName": "Windler",
+        "country": "Togo",
+        "city": "Denton",
+        "email": "Ottis75@hotmail.com",
+        "phone": "862.896.9960",
+        "id": "9"
+    },
+    {
+        "name": "Luis",
+        "lastName": "Schiller",
+        "country": "Sri Lanka",
+        "city": "Irving",
+        "email": "Quentin_Brekke@hotmail.com",
+        "phone": "1-873-916-4453 x500",
+        "id": "10"
+    },
+    {
+        "name": "Ila",
+        "lastName": "O'Keefe",
+        "country": "Cote d'Ivoire",
+        "city": "Thornton",
+        "email": "Norma78@hotmail.com",
+        "phone": "(472) 695-3366",
+        "id": "11"
+    },
+    {
+        "name": "Kaylie",
+        "lastName": "Morissette",
+        "country": "Mauritania",
+        "city": "Tampa",
+        "email": "Clyde.Casper68@gmail.com",
+        "phone": "713.921.5464 x476",
+        "id": "12"
+    },
+    {
+        "name": "Lelia",
+        "lastName": "Emmerich",
+        "country": "Belgium",
+        "city": "Erie",
+        "email": "Maximus87@gmail.com",
+        "phone": "802.840.0733 x712",
+        "id": "13"
+    },
+    {
+        "name": "Simeon",
+        "lastName": "Lebsack",
+        "country": "Belarus",
+        "city": "Tampa",
+        "email": "Julio_Fritsch@hotmail.com",
+        "phone": "1-616-610-7144 x9521",
+        "id": "14"
+    },
+    {
+        "name": "Amelie",
+        "lastName": "Little",
+        "country": "Qatar",
+        "city": "Cathedral City",
+        "email": "Dayana_Fadel@yahoo.com",
+        "phone": "1-646-306-2370 x805",
+        "id": "15"
+    },
+    {
+        "name": "Juan",
+        "lastName": "Camacho",
+        "country": "Colombia",
+        "city": "Bogota",
+        "email": "juan@test.com",
+        "phone": "4885233857",
+        "id": "16"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "Pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "17"
+    }
+]
+2024-03-11 13:17:26.793 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 13:17:26.793 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:17:26.794 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 13:17:26.794 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:17:26.801 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:17:26.802 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 13:17:26.802 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:17:27.145 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    }
+]
+2024-03-11 13:17:27.160 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:17:27.160 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 13:17:27.160 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:17:27.166 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:17:27.166 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update resource details
+2024-03-11 13:17:27.166 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:17:27.458 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    }
+]
+2024-03-11 13:17:27.464 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:17:27.464 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update resource details
+2024-03-11 13:17:27.464 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:18:42.412 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:18:42.415 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 13:18:42.415 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:18:42.666 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=Pepe, lastName=Perez, country=COL, city=Bog, email=Pepe@correo.com, phone=300-0000-0000, id=null)
+2024-03-11 13:18:44.779 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 13:18:44.779 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:18:44.780 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 13:18:44.780 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:18:44.786 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:18:44.786 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 13:18:44.786 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:18:45.163 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "Arne",
+        "lastName": "King",
+        "country": "Italy",
+        "city": "Inglewood",
+        "email": "Joan12@gmail.com",
+        "phone": "(632) 302-4405 x318",
+        "id": "3"
+    },
+    {
+        "name": "Abe",
+        "lastName": "Lebsack",
+        "country": "Brunei Darussalam",
+        "city": "Deltona",
+        "email": "Marisa_Rowe@gmail.com",
+        "phone": "(848) 669-2116 x7989",
+        "id": "4"
+    },
+    {
+        "name": "Rose",
+        "lastName": "Kohler",
+        "country": "Republic of Korea",
+        "city": "Santa Rosa",
+        "email": "Winnifred_Mayer56@yahoo.com",
+        "phone": "(384) 302-3069",
+        "id": "5"
+    },
+    {
+        "name": "Chet",
+        "lastName": "Boyer",
+        "country": "Zambia",
+        "city": "Town 'n' Country",
+        "email": "Jazmyn.OConnell32@gmail.com",
+        "phone": "330.973.9163 x294",
+        "id": "6"
+    },
+    {
+        "name": "Thelma",
+        "lastName": "Dach",
+        "country": "Bahrain",
+        "city": "Broken Arrow",
+        "email": "Florencio4@yahoo.com",
+        "phone": "(248) 953-5709 x08109",
+        "id": "7"
+    },
+    {
+        "name": "Clemens",
+        "lastName": "Hackett",
+        "country": "French Southern Territories",
+        "city": "Santa Maria",
+        "email": "Malcolm92@yahoo.com",
+        "phone": "615.290.6369 x903",
+        "id": "8"
+    },
+    {
+        "name": "Marty",
+        "lastName": "Windler",
+        "country": "Togo",
+        "city": "Denton",
+        "email": "Ottis75@hotmail.com",
+        "phone": "862.896.9960",
+        "id": "9"
+    },
+    {
+        "name": "Luis",
+        "lastName": "Schiller",
+        "country": "Sri Lanka",
+        "city": "Irving",
+        "email": "Quentin_Brekke@hotmail.com",
+        "phone": "1-873-916-4453 x500",
+        "id": "10"
+    },
+    {
+        "name": "Ila",
+        "lastName": "O'Keefe",
+        "country": "Cote d'Ivoire",
+        "city": "Thornton",
+        "email": "Norma78@hotmail.com",
+        "phone": "(472) 695-3366",
+        "id": "11"
+    },
+    {
+        "name": "Kaylie",
+        "lastName": "Morissette",
+        "country": "Mauritania",
+        "city": "Tampa",
+        "email": "Clyde.Casper68@gmail.com",
+        "phone": "713.921.5464 x476",
+        "id": "12"
+    },
+    {
+        "name": "Lelia",
+        "lastName": "Emmerich",
+        "country": "Belgium",
+        "city": "Erie",
+        "email": "Maximus87@gmail.com",
+        "phone": "802.840.0733 x712",
+        "id": "13"
+    },
+    {
+        "name": "Simeon",
+        "lastName": "Lebsack",
+        "country": "Belarus",
+        "city": "Tampa",
+        "email": "Julio_Fritsch@hotmail.com",
+        "phone": "1-616-610-7144 x9521",
+        "id": "14"
+    },
+    {
+        "name": "Amelie",
+        "lastName": "Little",
+        "country": "Qatar",
+        "city": "Cathedral City",
+        "email": "Dayana_Fadel@yahoo.com",
+        "phone": "1-646-306-2370 x805",
+        "id": "15"
+    },
+    {
+        "name": "Juan",
+        "lastName": "Camacho",
+        "country": "Colombia",
+        "city": "Bogota",
+        "email": "juan@test.com",
+        "phone": "4885233857",
+        "id": "16"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "Pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "17"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "Pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "18"
+    }
+]
+2024-03-11 13:18:45.551 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 13:18:45.552 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:18:45.552 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 13:18:45.552 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:18:45.560 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:18:45.560 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 13:18:45.561 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:18:45.855 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    }
+]
+2024-03-11 13:18:45.869 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:18:45.870 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 13:18:45.870 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 13:18:45.876 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 13:18:45.878 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update resource details
+2024-03-11 13:18:45.878 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 13:18:46.166 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    }
+]
+2024-03-11 13:18:46.172 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 13:18:46.173 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update resource details
+2024-03-11 13:18:46.173 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:18:46.232 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:18:46.234 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 14:18:46.234 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:18:46.488 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=Pepe, lastName=Perez, country=COL, city=Bog, email=pepe@correo.com, phone=300-0000-0000, id=null)
+2024-03-11 14:18:49.141 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 14:18:49.141 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:18:49.142 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 14:18:49.142 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:18:49.148 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:18:49.148 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 14:18:49.148 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:18:49.531 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "Arne",
+        "lastName": "King",
+        "country": "Italy",
+        "city": "Inglewood",
+        "email": "Joan12@gmail.com",
+        "phone": "(632) 302-4405 x318",
+        "id": "3"
+    },
+    {
+        "name": "Abe",
+        "lastName": "Lebsack",
+        "country": "Brunei Darussalam",
+        "city": "Deltona",
+        "email": "Marisa_Rowe@gmail.com",
+        "phone": "(848) 669-2116 x7989",
+        "id": "4"
+    },
+    {
+        "name": "Rose",
+        "lastName": "Kohler",
+        "country": "Republic of Korea",
+        "city": "Santa Rosa",
+        "email": "Winnifred_Mayer56@yahoo.com",
+        "phone": "(384) 302-3069",
+        "id": "5"
+    },
+    {
+        "name": "Chet",
+        "lastName": "Boyer",
+        "country": "Zambia",
+        "city": "Town 'n' Country",
+        "email": "Jazmyn.OConnell32@gmail.com",
+        "phone": "330.973.9163 x294",
+        "id": "6"
+    },
+    {
+        "name": "Thelma",
+        "lastName": "Dach",
+        "country": "Bahrain",
+        "city": "Broken Arrow",
+        "email": "Florencio4@yahoo.com",
+        "phone": "(248) 953-5709 x08109",
+        "id": "7"
+    },
+    {
+        "name": "Clemens",
+        "lastName": "Hackett",
+        "country": "French Southern Territories",
+        "city": "Santa Maria",
+        "email": "Malcolm92@yahoo.com",
+        "phone": "615.290.6369 x903",
+        "id": "8"
+    },
+    {
+        "name": "Marty",
+        "lastName": "Windler",
+        "country": "Togo",
+        "city": "Denton",
+        "email": "Ottis75@hotmail.com",
+        "phone": "862.896.9960",
+        "id": "9"
+    },
+    {
+        "name": "Luis",
+        "lastName": "Schiller",
+        "country": "Sri Lanka",
+        "city": "Irving",
+        "email": "Quentin_Brekke@hotmail.com",
+        "phone": "1-873-916-4453 x500",
+        "id": "10"
+    },
+    {
+        "name": "Ila",
+        "lastName": "O'Keefe",
+        "country": "Cote d'Ivoire",
+        "city": "Thornton",
+        "email": "Norma78@hotmail.com",
+        "phone": "(472) 695-3366",
+        "id": "11"
+    },
+    {
+        "name": "Kaylie",
+        "lastName": "Morissette",
+        "country": "Mauritania",
+        "city": "Tampa",
+        "email": "Clyde.Casper68@gmail.com",
+        "phone": "713.921.5464 x476",
+        "id": "12"
+    },
+    {
+        "name": "Lelia",
+        "lastName": "Emmerich",
+        "country": "Belgium",
+        "city": "Erie",
+        "email": "Maximus87@gmail.com",
+        "phone": "802.840.0733 x712",
+        "id": "13"
+    },
+    {
+        "name": "Simeon",
+        "lastName": "Lebsack",
+        "country": "Belarus",
+        "city": "Tampa",
+        "email": "Julio_Fritsch@hotmail.com",
+        "phone": "1-616-610-7144 x9521",
+        "id": "14"
+    },
+    {
+        "name": "Amelie",
+        "lastName": "Little",
+        "country": "Qatar",
+        "city": "Cathedral City",
+        "email": "Dayana_Fadel@yahoo.com",
+        "phone": "1-646-306-2370 x805",
+        "id": "15"
+    },
+    {
+        "name": "Juan",
+        "lastName": "Camacho",
+        "country": "Colombia",
+        "city": "Bogota",
+        "email": "juan@test.com",
+        "phone": "4885233857",
+        "id": "16"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "Pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "17"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "Pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "18"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "dude@gmail.com",
+        "phone": "1234567",
+        "id": "19"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "dude@gmail.com",
+        "phone": "1234567",
+        "id": "20"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "dude@gmail.com",
+        "phone": "1234567",
+        "id": "21"
+    },
+    {
+        "name": "amara",
+        "lastName": "lalis",
+        "country": "ciudad de panama",
+        "city": "panama",
+        "email": "lalis@gmail.com",
+        "phone": "1234342",
+        "id": "22"
+    },
+    {
+        "name": "Jett",
+        "lastName": "Lueilwitz",
+        "country": "Zambia",
+        "city": "Missouri City",
+        "email": "Isac.Ebert@gmail.com",
+        "phone": "(922) 745-4800 x1365",
+        "id": "22"
+    },
+    {
+        "name": "Josiane",
+        "lastName": "Graham",
+        "country": "Oman",
+        "city": "Milford",
+        "email": "Kris59@hotmail.com",
+        "phone": "920-869-2889",
+        "id": "23"
+    },
+    {
+        "name": "Pedro",
+        "lastName": "Picapiedra",
+        "country": "Nunca Jamas",
+        "city": "Narnia",
+        "email": "pedro@gmail.com",
+        "phone": "123-456-7890",
+        "id": "23"
+    },
+    {
+        "name": "Demarco",
+        "lastName": "Larson",
+        "country": "Croatia",
+        "city": "Eastvale",
+        "email": "Sarah_Hagenes63@gmail.com",
+        "phone": "251-877-8741 x35818",
+        "id": "24"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "25"
+    }
+]
+2024-03-11 14:18:49.899 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 14:18:49.900 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:18:49.900 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 14:18:49.900 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:18:49.909 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:18:49.909 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 14:18:49.909 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:18:50.215 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "15"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "16"
+    }
+]
+2024-03-11 14:18:50.520 INFO [api.stepDefinitions.ResourceSteps:84] - Schema valid true for Resource List
+2024-03-11 14:18:50.520 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:18:50.520 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 14:18:50.520 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:18:50.524 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:18:50.524 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update resource details
+2024-03-11 14:18:50.524 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:18:50.826 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "15"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "16"
+    }
+]
+2024-03-11 14:18:51.127 INFO [api.stepDefinitions.ResourceSteps:41] - {
+    "name": "NewName",
+    "trademark": "NewTradeMark",
+    "stock": 1000,
+    "price": 99.99,
+    "description": "New resource description",
+    "tags": "NewTag",
+    "active": true,
+    "id": "16"
+}
+2024-03-11 14:18:51.127 INFO [api.stepDefinitions.ResourceSteps:42] - Status code: 200
+2024-03-11 14:18:51.454 INFO [api.stepDefinitions.ResourceSteps:77] - Schema validation true
+2024-03-11 14:18:51.455 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:18:51.455 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update resource details
+2024-03-11 14:18:51.455 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:06.164 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:06.166 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 14:22:06.166 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:06.429 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=Pepe, lastName=Perez, country=COL, city=Bog, email=pepe@correo.com, phone=300-0000-0000, id=null)
+2024-03-11 14:22:08.933 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 14:22:08.933 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:08.933 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 14:22:08.933 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:08.939 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:08.939 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 14:22:08.940 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:09.300 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "Arne",
+        "lastName": "King",
+        "country": "Italy",
+        "city": "Inglewood",
+        "email": "Joan12@gmail.com",
+        "phone": "(632) 302-4405 x318",
+        "id": "3"
+    },
+    {
+        "name": "Tomas",
+        "lastName": "Duque",
+        "country": "Colombia",
+        "city": "Medellín",
+        "email": "tomas.duque@globant.com",
+        "phone": "123456789",
+        "id": "4"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "5"
+    }
+]
+2024-03-11 14:22:09.634 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 14:22:09.634 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:09.635 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 14:22:09.635 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:09.642 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:09.643 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 14:22:09.643 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:09.951 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "15"
+    }
+]
+2024-03-11 14:22:10.263 INFO [api.stepDefinitions.ResourceSteps:84] - Schema valid true for Resource List
+2024-03-11 14:22:10.263 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:10.264 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 14:22:10.264 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:10.268 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:10.268 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update resource details
+2024-03-11 14:22:10.268 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:10.573 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "15"
+    }
+]
+2024-03-11 14:22:10.871 INFO [api.stepDefinitions.ResourceSteps:41] - {
+    "name": "Vintage headphones",
+    "trademark": "Purdy Group",
+    "stock": 2300,
+    "price": 20145.42,
+    "description": "The headphones used for establishing new hearing experiences with old styles",
+    "tags": "vintage",
+    "active": true,
+    "id": "15"
+}
+2024-03-11 14:22:10.871 INFO [api.stepDefinitions.ResourceSteps:42] - Status code: 200
+2024-03-11 14:22:11.202 INFO [api.stepDefinitions.ResourceSteps:77] - Schema validation true
+2024-03-11 14:22:11.203 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:11.203 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update resource details
+2024-03-11 14:22:11.203 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:26.346 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:26.347 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 14:22:26.348 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:26.597 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=Pepe, lastName=Perez, country=COL, city=Bog, email=pepe@correo.com, phone=300-0000-0000, id=null)
+2024-03-11 14:22:29.359 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 14:22:29.359 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:29.361 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 14:22:29.361 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:29.366 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:29.366 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 14:22:29.367 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:29.743 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "Arne",
+        "lastName": "King",
+        "country": "Italy",
+        "city": "Inglewood",
+        "email": "Joan12@gmail.com",
+        "phone": "(632) 302-4405 x318",
+        "id": "3"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "5"
+    },
+    {
+        "name": "Pepe",
+        "lastName": "Perez",
+        "country": "COL",
+        "city": "Bog",
+        "email": "pepe@correo.com",
+        "phone": "300-0000-0000",
+        "id": "6"
+    }
+]
+2024-03-11 14:22:30.101 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 14:22:30.102 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:30.102 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 14:22:30.102 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:30.109 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:30.111 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 14:22:30.111 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:30.421 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "New Resource Name",
+        "trademark": "New Trademark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "This is a description",
+        "tags": "tag1",
+        "active": true,
+        "id": "15",
+        "_active": false
+    }
+]
+2024-03-11 14:22:30.742 INFO [api.stepDefinitions.ResourceSteps:84] - Schema valid true for Resource List
+2024-03-11 14:22:30.742 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:30.742 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 14:22:30.743 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:22:30.747 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:22:30.747 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last resource details
+2024-03-11 14:22:30.747 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:22:31.041 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "New Resource Name",
+        "trademark": "New Trademark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "This is a description",
+        "tags": "tag1",
+        "active": true,
+        "id": "15",
+        "_active": false
+    }
+]
+2024-03-11 14:22:31.346 INFO [api.stepDefinitions.ResourceSteps:41] - {
+    "name": "New Resource Name",
+    "trademark": "New Trademark",
+    "stock": 1000,
+    "price": 99.99,
+    "description": "This is a description",
+    "tags": "tag1",
+    "active": true,
+    "id": "15",
+    "_active": false
+}
+2024-03-11 14:22:31.346 INFO [api.stepDefinitions.ResourceSteps:42] - Status code: 200
+2024-03-11 14:22:31.687 INFO [api.stepDefinitions.ResourceSteps:77] - Schema validation true
+2024-03-11 14:22:31.687 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:22:31.687 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update last resource details
+2024-03-11 14:22:31.687 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:13.723 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:13.726 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 14:26:13.726 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:13.968 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=LeBron, lastName=James, country=USA, city=LA, email=lb@email.com, phone=300-0000-0000, id=null)
+2024-03-11 14:26:16.763 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 14:26:16.764 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:16.764 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 14:26:16.764 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:16.768 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:16.769 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 14:26:16.769 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:17.135 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "Manuel",
+        "lastName": "Munoz",
+        "country": "Colombia",
+        "city": "Bogota",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "3"
+    },
+    {
+        "name": "Manuel",
+        "lastName": "Munoz",
+        "country": "Colombia",
+        "city": "Bogota",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "4"
+    },
+    {
+        "name": "Manuel",
+        "lastName": "Munoz",
+        "country": "Colombia",
+        "city": "Bogota",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "5"
+    },
+    {
+        "name": "LeBron",
+        "lastName": "James",
+        "country": "USA",
+        "city": "LA",
+        "email": "lb@email.com",
+        "phone": "300-0000-0000",
+        "id": "6"
+    }
+]
+2024-03-11 14:26:17.480 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 14:26:17.480 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:17.481 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 14:26:17.481 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:17.488 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:17.489 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 14:26:17.489 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:17.792 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "New Resource Name",
+        "trademark": "New Trademark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "This is a description",
+        "tags": "tag1",
+        "active": true,
+        "id": "15",
+        "_active": false
+    }
+]
+2024-03-11 14:26:18.118 INFO [api.stepDefinitions.ResourceSteps:84] - Schema valid true for Resource List
+2024-03-11 14:26:18.119 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:18.119 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 14:26:18.119 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:18.122 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:18.124 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last resource details
+2024-03-11 14:26:18.124 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:18.418 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "New Resource Name",
+        "trademark": "New Trademark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "This is a description",
+        "tags": "tag1",
+        "active": true,
+        "id": "15",
+        "_active": false
+    }
+]
+2024-03-11 14:26:18.758 INFO [api.stepDefinitions.ResourceSteps:41] - {
+    "name": "New Resource Name",
+    "trademark": "New Trademark",
+    "stock": 1000,
+    "price": 99.99,
+    "description": "This is a description",
+    "tags": "tag1",
+    "active": true,
+    "id": "15",
+    "_active": false
+}
+2024-03-11 14:26:18.759 INFO [api.stepDefinitions.ResourceSteps:42] - Status code: 200
+2024-03-11 14:26:19.113 INFO [api.stepDefinitions.ResourceSteps:77] - Schema validation true
+2024-03-11 14:26:19.113 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:19.113 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update last resource details
+2024-03-11 14:26:19.114 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:49.375 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:49.378 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2024-03-11 14:26:49.379 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:49.632 INFO [api.stepDefinitions.ClientSteps:44] - Client mapped: Client(name=LeBron, lastName=James, country=USA, city=LA, email=lb@email.com, phone=300-0000-0000, id=null)
+2024-03-11 14:26:52.329 INFO [api.stepDefinitions.ClientSteps:75] - Schema validation true
+2024-03-11 14:26:52.330 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:52.330 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Create a new client
+2024-03-11 14:26:52.330 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:52.335 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:52.335 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the clients
+2024-03-11 14:26:52.335 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:52.703 INFO [api.stepDefinitions.ClientSteps:28] - [
+    {
+        "name": "Bernita",
+        "lastName": "Gislason",
+        "country": "Zimbabwe",
+        "city": "Rancho Palos Verdes",
+        "email": "Pierre_Hermiston58@yahoo.com",
+        "phone": "1-389-689-3873 x639",
+        "id": "1"
+    },
+    {
+        "name": "Reyna",
+        "lastName": "Witting",
+        "country": "Guyana",
+        "city": "Frederick",
+        "email": "Rashawn_Reinger@hotmail.com",
+        "phone": "1-382-337-5460 x34443",
+        "id": "2"
+    },
+    {
+        "name": "LeBron",
+        "lastName": "James",
+        "country": "USA",
+        "city": "LA",
+        "email": "lb@email.com",
+        "phone": "300-0000-0000",
+        "id": "6"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "MrNobody@gmail.com",
+        "phone": "3032457543",
+        "id": "7"
+    },
+    {
+        "name": "LeBron",
+        "lastName": "James",
+        "country": "USA",
+        "city": "LA",
+        "email": "lb@email.com",
+        "phone": "300-0000-0000",
+        "id": "8"
+    }
+]
+2024-03-11 14:26:53.047 INFO [api.stepDefinitions.ClientSteps:82] - Schema valid true for Clients List
+2024-03-11 14:26:53.047 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:53.047 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the clients
+2024-03-11 14:26:53.047 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:53.055 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:53.055 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: View all the resources
+2024-03-11 14:26:53.056 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:53.369 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "New Resource Name",
+        "trademark": "New Trademark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "This is a description",
+        "tags": "tag1",
+        "active": true,
+        "id": "15",
+        "_active": false
+    }
+]
+2024-03-11 14:26:53.688 INFO [api.stepDefinitions.ResourceSteps:84] - Schema valid true for Resource List
+2024-03-11 14:26:53.689 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:53.689 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: View all the resources
+2024-03-11 14:26:53.689 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-03-11 14:26:53.693 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-03-11 14:26:53.693 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last resource details
+2024-03-11 14:26:53.693 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-03-11 14:26:54.011 INFO [api.stepDefinitions.ResourceSteps:32] - [
+    {
+        "name": "Ergonomic Cotton Gloves",
+        "trademark": "Mitchell, Hamill and Goodwin",
+        "stock": 27582,
+        "price": 34180.85,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "tags": "name",
+        "active": false,
+        "id": "1"
+    },
+    {
+        "name": "Intelligent Soft Bike",
+        "trademark": "Blanda, Stroman and Homenick",
+        "stock": 51144,
+        "price": 64113.65,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "title",
+        "active": false,
+        "id": "2"
+    },
+    {
+        "name": "Handcrafted Frozen Bacon",
+        "trademark": "Graham Group",
+        "stock": 43457,
+        "price": 20910.87,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "tags": "comment",
+        "active": false,
+        "id": "3"
+    },
+    {
+        "name": "Incredible mouse",
+        "trademark": "nike",
+        "stock": 324,
+        "price": 1212,
+        "description": "Mouses to play and work, ergonomically designed for hours of comfortable use",
+        "tags": "mouse",
+        "active": true,
+        "id": "4"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "New resource description",
+        "tags": "NewTag",
+        "active": true,
+        "id": "11"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "12"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "13"
+    },
+    {
+        "name": "Vintage headphones",
+        "trademark": "Purdy Group",
+        "stock": 2300,
+        "price": 20145.42,
+        "description": "The headphones used for establishing new hearing experiences with old styles",
+        "tags": "vintage",
+        "active": true,
+        "id": "14"
+    },
+    {
+        "name": "New Resource Name",
+        "trademark": "New Trademark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "This is a description",
+        "tags": "tag1",
+        "active": true,
+        "id": "15",
+        "_active": false
+    }
+]
+2024-03-11 14:26:54.321 INFO [api.stepDefinitions.ResourceSteps:41] - {
+    "name": "New Resource Name",
+    "trademark": "New Trademark",
+    "stock": 1000,
+    "price": 99.99,
+    "description": "This is a description",
+    "tags": "tag1",
+    "active": true,
+    "id": "15",
+    "_active": false
+}
+2024-03-11 14:26:54.321 INFO [api.stepDefinitions.ResourceSteps:42] - Status code: 200
+2024-03-11 14:26:54.662 INFO [api.stepDefinitions.ResourceSteps:77] - Schema validation true
+2024-03-11 14:26:54.663 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-03-11 14:26:54.663 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update last resource details
+2024-03-11 14:26:54.663 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

@@ -32,7 +32,7 @@ public class ResourceSteps {
         logger.info(response.jsonPath().prettify());
         Assert.assertEquals(200, response.getStatusCode());
         resourceList = resourceRequest.getResourcesEntity(response);
-        Assert.assertTrue(resourceList.size() >= 5);
+        Assert.assertTrue("There arent 5 resources registered",resourceList.size() >= 5);
     }
 
     @And("I retrieve the details of the latest resource")

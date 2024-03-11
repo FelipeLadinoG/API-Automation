@@ -44,13 +44,6 @@ public class ClientSteps {
         logger.info("Client mapped: " + client);
     }
 
-    @When("I retrieve the details of the client with ID {string}")
-    public void sendGETRequest(String clientId) {
-        response = clientRequest.getClient(clientId);
-        logger.info(response.jsonPath().prettify());
-        logger.info("Status code: " + response.getStatusCode());
-    }
-
     @When("I send a GET request to view all the clients")
     public void iSendAGETRequestToViewAllTheClient() {
         response = clientRequest.getClients();
@@ -61,33 +54,12 @@ public class ClientSteps {
         response = clientRequest.createClient(client);
     }
 
-    @When("I send a DELETE request to delete the client with ID {string}")
-    public void iSendADELETERequestToDeleteTheClientWithID(String clientId) {
-        response = clientRequest.deleteClient(clientId);
-    }
-
-    @When("I send a PUT request to update the client with ID {string}")
-    public void iSendAPUTRequestToUpdateTheClientWithID(String clientId, String requestBody) {
-        client = clientRequest.getClientEntity(requestBody);
-        response = clientRequest.updateClient(client, clientId);
-    }
 
     @Then("the response should have a status code of {int}")
     public void theResponseShouldHaveAStatusCodeOf(int statusCode) {
         Assert.assertEquals(statusCode, response.getStatusCode());
     }
 
-    @Then("the response should have the following details:")
-    public void theResponseShouldHaveTheFollowingDetails(DataTable expectedData) {
-        client = clientRequest.getClientEntity(response);
-        Map<String, String> expectedDataMap = expectedData.asMaps().get(0);
-        Assert.assertEquals(expectedDataMap.get("Name"), client.getName());
-        Assert.assertEquals(expectedDataMap.get("Country"), client.getCountry());
-        Assert.assertEquals(expectedDataMap.get("City"), client.getCity());
-        Assert.assertEquals(expectedDataMap.get("Email"), client.getEmail());
-        Assert.assertEquals(expectedDataMap.get("Phone"), client.getPhone());
-        Assert.assertEquals(expectedDataMap.get("Id"), client.getId());
-    }
 
     @Then("the response should include the details of the created client")
     public void theResponseShouldIncludeTheDetailsOfTheCreatedClient() {

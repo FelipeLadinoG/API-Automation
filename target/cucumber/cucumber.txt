@@ -1,6 +1,16 @@
 
 @active @smokeTest
-Scenario: View all the clients                            # src/test/resources/features/client_testing_crud.feature:22
+Scenario: Create a new client                                       # src/test/resources/features/client_testing_crud.feature:5
+  Given I have a client with the following details:                 # com.testing.api.stepDefinitions.ClientSteps.iHaveAClientWithTheFollowingDetails(io.cucumber.datatable.DataTable)
+    | Name   | LastName | Country | City | Email        | Phone         |
+    | LeBron | James    | USA     | LA   | lb@email.com | 300-0000-0000 |
+  When I send a POST request to create a client                     # com.testing.api.stepDefinitions.ClientSteps.iSendAPOSTRequestToCreateAClient()
+  Then the response should have a status code of 201                # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And the response should include the details of the created client # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldIncludeTheDetailsOfTheCreatedClient()
+  And validates the response with client JSON schema                # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
+
+@active @smokeTest
+Scenario: View all the clients                            # src/test/resources/features/client_testing_crud.feature:15
   Given there are registered clients in the system        # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredClientsInTheSystem()
   When I send a GET request to view all the clients       # com.testing.api.stepDefinitions.ClientSteps.iSendAGETRequestToViewAllTheClient()
   Then the response should have a status code of 200      # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
@@ -14,12 +24,12 @@ Scenario: View all the resources                              # src/test/resourc
   And validates the response with resource list JSON schema   # com.testing.api.stepDefinitions.ResourceSteps.userValidatesResponseWithResourceListJSONSchema()
 
 @active @smokeTest
-Scenario: Update resource details                              # src/test/resources/features/resource_testing_crud.feature:12
+Scenario: Update last resource details                         # src/test/resources/features/resource_testing_crud.feature:12
   Given there are registered resources in the system           # com.testing.api.stepDefinitions.ResourceSteps.thereAreRegisteredResourcesInTheSystem()
   And I retrieve the details of the latest resource            # com.testing.api.stepDefinitions.ResourceSteps.iRetrieveTheDetailsOfTheLatestResource()
   When I send a PUT request to update the latest resource      # com.testing.api.stepDefinitions.ResourceSteps.iSendAPUTRequestToUpdateTheLatestResource(java.lang.String)
   Then the resource response should have a status code of 200  # com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(int)
   And the resource response should have the following details: # com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable)
-    | Name            | Trademark | Stock | Price | Description           | Tags | Active |
-    | Convertible Car | Juan      | 1000  | 99.99 | This is a description | auto | true   |
+    | Name              | Trademark     | Stock | Price | Description           | Tags | Active |
+    | New Resource Name | New Trademark | 1000  | 99.99 | This is a description | tag1 | true   |
   And validates the response with resource JSON schema         # com.testing.api.stepDefinitions.ResourceSteps.userValidatesResponseWithResourceJSONSchema()
