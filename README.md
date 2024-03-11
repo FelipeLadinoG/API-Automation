@@ -1,15 +1,15 @@
 # API Automation
 
-Este proyecto es un ejemplo de automatización de pruebas para una API utilizando RestAssured, Cucumber y Java 11.
+This project is an example of test automation for an API using RestAssured, Cucumber, and Java 11.
 
 ## Tecnologías Utilizadas
 
-- **RestAssured:** RestAssured es una biblioteca Java que se utiliza para probar las API REST. Proporciona una forma sencilla y fluida de enviar solicitudes HTTP y de verificar las respuestas.
+- **RestAssured:** RestAssured is a Java library used for testing REST APIs. It provides a simple and fluent way to send HTTP requests and verify responses.
   
-- **Cucumber:** Cucumber es un marco de trabajo de automatización de pruebas basado en el lenguaje natural. Permite escribir escenarios de prueba en un formato legible para humanos (Gherkin) y luego implementar esos escenarios en código Java utilizando pasos definidos.
+- **Cucumber:** Cucumber is a behavior-driven testing framework based on natural language. It allows writing test scenarios in a human-readable format (Gherkin) and then implementing those scenarios in Java code using defined steps.
 
-- **Java 11:** Java es un lenguaje de programación popular utilizado en el desarrollo de aplicaciones empresariales y de software. En este proyecto, utilizamos Java 11 como la versión del lenguaje para escribir los pasos de prueba y la lógica de automatización.
+- **Java 11:** Java 11 is used as the language version to write test steps and automation logic.
 
-## Ejecución de las Pruebas
+## Running the Tests
 
-Para ejecutar las pruebas, asegúrate de tener configurado tu entorno de desarrollo con Java 11 y Maven. Luego, simplemente ejecuta la clase `TestRunner` ubicada en el paquete `com.testing.api.runner`. Esta clase se encargará de ejecutar todas las pruebas definidas en los archivos de características de Cucumber.
+To run the tests, make sure you have set up your development environment with Java 11 and Maven. Then, simply execute the `TestRunner` class located in the `com.testing.api.runner` package. This class will run all the tests defined in the Cucumber feature files.
