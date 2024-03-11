@@ -1,0 +1,25 @@
+
+@active @smokeTest
+Scenario: View all the clients                            # src/test/resources/features/client_testing_crud.feature:22
+  Given there are registered clients in the system        # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredClientsInTheSystem()
+  When I send a GET request to view all the clients       # com.testing.api.stepDefinitions.ClientSteps.iSendAGETRequestToViewAllTheClient()
+  Then the response should have a status code of 200      # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with client list JSON schema # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientListJSONSchema()
+
+@active @smokeTest
+Scenario: View all the resources                              # src/test/resources/features/resource_testing_crud.feature:5
+  Given there are registered resources in the system          # com.testing.api.stepDefinitions.ResourceSteps.thereAreRegisteredResourcesInTheSystem()
+  When I send a GET request to view all the resources         # com.testing.api.stepDefinitions.ResourceSteps.iSendAGETRequestToViewAllTheResources()
+  Then the resource response should have a status code of 200 # com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with resource list JSON schema   # com.testing.api.stepDefinitions.ResourceSteps.userValidatesResponseWithResourceListJSONSchema()
+
+@active @smokeTest
+Scenario: Update resource details                              # src/test/resources/features/resource_testing_crud.feature:12
+  Given there are registered resources in the system           # com.testing.api.stepDefinitions.ResourceSteps.thereAreRegisteredResourcesInTheSystem()
+  And I retrieve the details of the latest resource            # com.testing.api.stepDefinitions.ResourceSteps.iRetrieveTheDetailsOfTheLatestResource()
+  When I send a PUT request to update the latest resource      # com.testing.api.stepDefinitions.ResourceSteps.iSendAPUTRequestToUpdateTheLatestResource(java.lang.String)
+  Then the resource response should have a status code of 200  # com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(int)
+  And the resource response should have the following details: # com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable)
+    | Name            | Trademark | Stock | Price | Description           | Tags | Active |
+    | Convertible Car | Juan      | 1000  | 99.99 | This is a description | auto | true   |
+  And validates the response with resource JSON schema         # com.testing.api.stepDefinitions.ResourceSteps.userValidatesResponseWithResourceJSONSchema()
